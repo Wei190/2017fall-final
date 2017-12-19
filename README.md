@@ -1,7 +1,7 @@
 # MSTU 5013 Nelson's Design Document
 
 ## demonstration page
-
+https://wei190.github.io/2017fall-final/
 
 ## github repo
 https://github.com/Wei190/2017fall-final
@@ -69,10 +69,9 @@ In the navigation bar, i will provide a detailed description of the website, fli
 ![wireframe1](img/S6.png)
 
 ## Prototype and User Tests
-
 Add any findings from your user tests
 
-##Reflection
+## Reflection
 The final project I based on the midterm examinations, the site has been optimized. In order to give users a better experience. So I added one more page, this page is a product layout page. It can help users search for the desired product. In addition, because different products are in different regions, so I added the google map to retrieve and mark the location. This allows users more clearly to see where the airport is, will greatly reduce the workload of customer service. At the same time, will  help to users make the  decision to buy the product.
  I also added the capabilities of firebase and riot.
 
