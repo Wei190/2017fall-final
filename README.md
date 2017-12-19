@@ -9,6 +9,9 @@ https://github.com/Wei190/2017fall-final
 ## firebase page
 https://fir-ui-demo-84a6c.firebaseapp.com
 
+## Pitch deck
+https://docs.google.com/presentation/d/1975ujocrdRE83jSdcxIs9jkaomrhmwnssfGHr1NGfQo/edit?usp=sharing
+
 ## Brief description of my project
 The current aviation market, there are a variety of large and small different business models, some of which small flight school, not only the flight quality is difficult to guarantee, while the price is also uneven, often cause consumer confusion. After experiencing the flight study, I think that there is an objective and fair platform to integrate all the flight experience activities and publish it on the website, which will make the aviation market more open and transparent.
 That‘s why I create Airacer，Which is an online marketplace to integrate flight service providers with flight lovers and enthusiasts. Airacer partners with prestigious flight schools, flight clubs, individual instructors and commercial pilots throughout the USA to provide our customers with premium flight services including introductory flight, sightseeing flight, flight training and aircraft rental with a variety of aircraft.Also, Airacer professional flight consultants are always ready to serve customers who love the freedom of flying. Customer will receive professional and tailored flight services.
