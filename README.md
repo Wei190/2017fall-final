@@ -72,7 +72,8 @@ In the navigation bar, i will provide a detailed description of the website, fli
 ![wireframe1](img/S6.png)
 
 ## Prototype and User Tests
-Add any findings from your user tests
+I interviewed some customers, they said they are willing to use this platform. Particularly, flight-trained students and big aviation schools are convenient in managing their own flight records. At the same time, customers also made comments, hoping to be more real and effective evaluation of marketing and user evaluation. Only there are enough users to participate in the flight project can collect enough objective evaluation.
+In addtion, many Chinese users want to add China's chatting tools wechat, and payment tools Ali pay on my platform, which will greatly facilitate the user to make the purchase.
 
 ## Reflection
 The final project I based on the midterm examinations, the site has been optimized. In order to give users a better experience. So I added one more page, this page is a product layout page. It can help users search for the desired product. In addition, because different products are in different regions, so I added the google map to retrieve and mark the location. This allows users more clearly to see where the airport is, will greatly reduce the workload of customer service. At the same time, will  help to users make the  decision to buy the product.
