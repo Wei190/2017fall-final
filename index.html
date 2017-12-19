@@ -1,0 +1,555 @@
+<!DOCTYPE html>
+<html  dir="ltr" lang="en-US">
+  <head>
+    <meta http-equiv="Content-Type" content="text/html; charset=UTF-8">
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta name="viewport" content="width=device-width, initial-scale=1, user-scalable=no">
+    <link rel="stylesheet" type="text/css" href="css/materialize.min.css">
+    <link rel="stylesheet" href="css/nav.css">
+      <link rel="stylesheet" href="lib/stylesheets/iconfont.css">
+    <link rel="stylesheet" href="css/homePage.css">
+    <link rel="stylesheet" href="css/index.css">
+    <link rel="stylesheet" href="css/airacer_home.css">
+    <title>Airacer</title>
+  </head>
+<body>
+<script type="text/javascript" src="js/jquery.min.js"></script>
+<script src="lib/javascripts/jquery.raty.js"></script>
+<script src="lib/javascripts/slick.js" type="text/javascript" charset="utf-8"></script>
+<script src="lib/javascripts/labs.js" type="text/javascript"></script>
+<script src="https://cdn.bootcss.com/owl-carousel/1.32/owl.carousel.min.js"></script>
+<script type="text/javascript" src="js/materialize.min.js"></script>
+<script src="js/index.js"></script>
+<nav class="nav-navBar white ">
+  <div class="nav-wrapper">
+    <a href="index.html" class="brand-logo"><img src="img/logo-transparent.png" alt=""></a>
+    <a href="#" data-activates="mobile-demo" class="button-collapse">
+      <i class="iconfont icon-up"></i>
+    </a>
+    <div class="input-field field-search-top">
+        <buttom class="search-btn">Search<i class="ion-search top-search"></i></buttom>
+    </div>
+     <ul class="left hide-on-med-and-down non-drop">
+      <li class="non-drop"><a href="product-layout.html">Discovery Flight</a></li>
+      <li class="non-drop"><a href="product-layout.html">Flightseeing Tour</a></li>
+      <li class="non-drop"><a href="product-layout.html">Pilot Training</a></li>
+      <li class="non-drop"><a href="product-layout.html">Rental</a></li>
+    </ul>
+    <ul class="right hide-on-med-and-down">
+      <li class="non-drop" id="whyus-btn"><a href="javascript::" >Why Us?</a></li>
+      <li class="non-drop"><a href="provider.html" class="btn light-blue lighten-1 waves-effect waves-light">Become a Provider</a></li>
+      <li class="non-drop"><a href="https://fir-ui-demo-84a6c.firebaseapp.com/" class="authBtn">SignUp/Login</a></li>
+    </ul>
+    </div>
+</nav>
+<div class="airacerHome box">
+  <div class="container">
+    <div class="row">
+      <div class="airacer-header-box box">
+        <div class="col l12 s12">
+          <div class="airacer_header">
+            <h1 class="">Airacer</h1>
+            <p>Book Flight Services to </p>
+            <p>Experience the Thrill of Flying</p>
+          </div>
+            <form class="air-form">
+              <div class="input-field">
+                <i class="iconfont icon-down1"></i>
+                <select>
+                  <option value="" disabled selected>City</option>
+                  <option value="1">New York</option>
+                  <option value="2">San Diego</option>
+                  <option value="3">Long Beach</option>
+                </select>
+              </div>
+              <div class="input-field input-flights">
+                <i class="iconfont icon-down1"></i>
+                <select>
+                  <option value="" disabled selected>Discovery Flight</option>
+                  <option value="1">Flightseeing Tour</option>
+                  <option value="2">Pilot Training</option>
+                  <option value="3">Rental</option>
+                </select>
+              </div>
+              <div class="airacer-form-buttom">
+              <input type="submit" value="FLY">
+              </div>
+            </form>
+          </div>
+        </div>
+        <div class="line-first"></div>
+        <div class="banner banner_web col l12">
+          <ul class="tabs" id="indexCarousel">
+            <li class="tab"><a href="#test1">Discovery Flight</a></li>
+            <li class="tab"><a  href="#test2">Flighrseeing Tour</a></li>
+            <li class="tab"><a href="#test3">Pilot Traning</a></li>
+            <li class="tab" id="lastLi"><a class="active" href="#test4">Rental</a></li>
+          </ul>
+          <div id="test1" class="banner_item">
+            <img src="img/a1.png" alt="">
+            <div class="banner_content">
+              <h4>Discovery Flight</h4>
+              <p>Enjoy your very first experience piloting an aircraft with an instructor</p>
+              <a href="product-layout.html">FLY</a>
+            </div>
+          </div>
+          <div id="test2" class="banner_item">
+            <img src="img/a2.png" alt="">
+            <div class="banner_content">
+              <h4>Flightseeing Tour</h4>
+              <p>The ordinary from an extraordinary point of view</p>
+              <a href="product-layout.html">FLY</a>
+            </div>
+          </div>
+          <div id="test3" class="banner_item">
+            <img src="img/a3.png" alt="">
+            <div class="banner_content">
+              <h4>Pilot Training</h4>
+              <p>Learn to fly with various aircraft models</p>
+              <a href="product-layout.html">FLY</a>
+            </div>
+          </div>
+          <div id="test4" class="banner_item">
+            <img src="img/a4.png" alt="">
+            <div class="banner_content">
+              <h4>Rental</h4>
+              <p>Rent an aircraft as easily as getting a cab</p>
+              <a href="#">FLY</a>
+            </div>
+          </div>
+        </div>
+
+        <section class="serviceSection small-service container box">
+          <div class="popularService">
+            <h2 class="airacer-h2">Featured Flights</h2>
+             <div class="slider" id="popularFlights" >
+                <div class="airboard-search">
+                  <a href="product.html" class="airboard-search-box">
+                    <div class="pop-flyImg"><img src="img/images/anchor2_bg.jpg"></div>
+                    <p class="search-box-head">
+                      <span>$169</span>Learn to pilot
+                    </p>
+                    <p class="search-box-site">
+                      <span>30 mins,</span>New York City, NY
+                    </p>
+                    <div  class="starType" data-score = '3'></div>
+                    <div class="ion-minute">
+                      <span>88 </span>reviews
+                    </div>
+                  </a>
+                </div>
+              <div class="airboard-search">
+                  <a href="product.html" class="airboard-search-box">
+                    <div class="pop-flyImg"><img src="img/images/anchor2_bg.jpg"></div>
+                    <p class="search-box-head">
+                      <span>$169</span>Learn to pilot
+                    </p>
+                    <p class="search-box-site">
+                      <span>30 mins,</span>New York City, NY
+                    </p>
+                    <div  class="starType" data-score = '3'></div>
+                    <div class="ion-minute">
+                      <span>88 </span>reviews
+                    </div>
+                  </a>
+                </div>
+              <div class="airboard-search">
+                  <a href="#" class="airboard-search-box">
+                    <div class="pop-flyImg"><img src="img/images/anchor2_bg.jpg"></div>
+                    <p class="search-box-head">
+                      <span>$169</span>Learn to pilot
+                    </p>
+                    <p class="search-box-site">
+                      <span>30 mins,</span>New York City, NY
+                    </p>
+                    <div  class="starType" data-score = '3'></div>
+                    <div class="ion-minute">
+                      <span>88 </span>reviews
+                    </div>
+                  </a>
+                </div>
+              <div class="airboard-search">
+                  <a href="#" class="airboard-search-box">
+                    <div class="pop-flyImg"><img src="img/images/anchor2_bg.jpg"></div>
+                    <p class="search-box-head">
+                      <span>$169</span>Learn to pilot
+                    </p>
+                    <p class="search-box-site">
+                      <span>30 mins,</span>New York City, NY
+                    </p>
+                    <div  class="starType" data-score = '3'></div>
+                    <div class="ion-minute">
+                      <span>88 </span>reviews
+                    </div>
+                  </a>
+                </div>
+            </div>
+
+        <div class="more right">
+        <a href="#"> more ></a></div>
+        <div class="line"></div>
+<section class="serviceSection small-service container box">
+  <div class="popularService">
+    <h2  class="airacer-h2">Popular Flights</h2>
+    <div class="slider" id="featuredFlights">
+      <div class="airboard-search">
+        <a href="#" class="airboard-search-box">
+          <div class="pop-flyImg"><img src="img/images/anchor2_bg.jpg"></div>
+          <p class="search-box-head">
+            <span>$169</span>Learn to pilot
+          </p>
+          <p class="search-box-site">
+            <span>30 mins,</span>New York City, NY
+          </p>
+          <div  class="starType" data-score = '3'></div>
+          <div class="ion-minute">
+            <span>88 </span>reviews
+          </div>
+        </a>
+      </div>
+       <div class="airboard-search">
+        <a href="#" class="airboard-search-box">
+          <div class="pop-flyImg"><img src="img/images/anchor2_bg.jpg"></div>
+          <p class="search-box-head">
+            <span>$169</span>Learn to pilot
+          </p>
+          <p class="search-box-site">
+            <span>30 mins,</span>New York City, NY
+          </p>
+          <div  class="starType" data-score = '3'></div>
+          <div class="ion-minute">
+            <span>88 </span>reviews
+          </div>
+        </a>
+      </div>
+       <div class="airboard-search">
+          <a href="#" class="airboard-search-box">
+          <div class="pop-flyImg"><img src="img/images/anchor2_bg.jpg"></div>
+          <p class="search-box-head">
+            <span>$169</span>Learn to pilot
+          </p>
+          <p class="search-box-site">
+            <span>30 mins,</span>New York City, NY
+          </p>
+          <div  class="starType" data-score = '3'></div>
+          <div class="ion-minute">
+            <span>88 </span>reviews
+          </div>
+        </a>
+      </div>
+      <div class="airboard-search">
+          <a href="#" class="airboard-search-box">
+          <div class="pop-flyImg"><img src="img/images/anchor2_bg.jpg"></div>
+          <p class="search-box-head">
+            <span>$169</span>Learn to pilot
+          </p>
+          <p class="search-box-site">
+            <span>30 mins,</span>New York City, NY
+          </p>
+          <div  class="starType" data-score = '3'></div>
+          <div class="ion-minute">
+            <span>88 </span>reviews
+          </div>
+        </a>
+      </div>
+    </div>
+<div class="more right">
+<a href="#"> more ></a></div>
+  <div class="line"></div>
+  <div class="airacer-service box" id="whyus">
+    <h2 class="airacer-h2 col l12 s12">Providers, Why Airacer?</h2>
+    <div class="airacer-service-img col l5 ">
+      <img src="img/service.png">
+    </div>
+    <div class="airacer-service-title col offset-l1 l6 s12">
+      <div>
+        <span class="col l1 s1 circle-box">1</span>
+        <p class="col l11 s11">Airacer provides you with a sophisticated management system, and illuminates your brand and your school to potential flight enthusiasts</p>
+      </div>
+      <div>
+        <span class="col l1 s1 circle-box">2</span>
+        <p class="col l11 s11">Airacer’s management system makes sure that you have the best user-friendly experience</p>
+      </div>
+      <div>
+        <span class="col l1 s1 circle-box">3</span>
+        <p class="col l11 s11">Airacer’s system fully encrypts your data</p>
+      </div>
+      <div>
+        <span class="col l1 s1 circle-box">4</span>
+        <p class="col l11 s11">Airacer charges no fee for the initial management system</p>
+      </div>
+    </div>
+  </div>
+  <div class="line"></div>
+  <div class="airacer-customers box">
+    <h2 class="airacer-h2 col l12 s12">Customers, Why Airacer?</h2>
+    <div class="airacer-customers-top">
+      <div class="airacer-customers-blue">
+        <i></i><span>Airacer</span>
+      </div>
+      <div class="airacer-customers-gray">
+        <i></i><span>Other e-commerce sites</span>
+      </div>
+    </div>
+    <div class="airacer-customers-header box">
+      <div class="customers-header col l4 offset-l3">
+        <p>Airacer</p>
+      </div>
+      <div class="customers-header col l5">
+        <p>Other e-commerce sites</p>
+      </div>
+    </div>
+    <div class="airacer-customers-title box">
+      <div class="customers-title-box">
+        <div class="customers-price-header col l3 s12">
+          <p>Price</p>
+        </div>
+        <div class="customers-price-left col  l4 s6">
+          <p>Confirmed Prices No Surcharge</p>
+        </div>
+        <div class="customers-price-right col l5 s6">
+          <p>$35-$100 Surcharge or Hidden Fee</p>
+        </div>
+      </div>
+
+      <div class="customers-title-box">
+        <div class="customers-price-header col l3 s12">
+          <p>Convenience</p>
+        </div>
+        <div class="customers-price-left customers-price-short col l4 s6">
+          <p>One click online booking</p>
+        </div>
+        <div class="customers-price-right customers-price-short col l5 s6">
+          <p>back and forth phone calls booking</p>
+        </div>
+      </div>
+
+      <div class="customers-title-box">
+        <div class="customers-price-header col l3 s12">
+          <p>Availability</p>
+        </div>
+        <div class="customers-price-left customers-price-short  col l4 s6">
+          <p>Any time you want to fly</p>
+        </div>
+        <div class="customers-price-right col l5 s6">
+          <p>Not always available, could be up to 3 months</p>
+        </div>
+      </div>
+
+      <div class="customers-title-box ">
+        <div class="customers-price-header col l3 s12">
+          <p>Product Category</p>
+        </div>
+        <div class="customers-price-left customers-price-long col l4 s6">
+          <p>Wide variety of flight services available</p>
+        </div>
+        <div class="customers-price-right customers-price-long col l5 s6 col l5 s6">
+          <p>Limited flight services (e.g.no training and rental)</p>
+        </div>
+      </div>
+    </div>
+  </div>
+  <div class="line"></div>
+  <div class="airacer-sign col l12">
+    <h2 class="airacer-h2">Sign up to fly</h2>
+    <div class="airacer-sign-video">
+      <iframe width="560" height="315" src="https://www.youtube.com/embed/_wb6ZD-Fa24" frameborder="0" allowfullscreen></iframe>
+      <p>WATCH A DEMO</p>
+    </div>
+        <div class="airacer-sign-title box">
+          <div class="sign-title-box col l4 s12">
+            <img src="img/copy.svg">
+            <h3>Choose your location and flight type</h3>
+            <p>On Airacer’s website, choose the flight location and the flight type, the system will direct you to the page where you can check a variety of flight services.</p>
+          </div>
+          <div class="sign-title-box col l4 s12">
+            <img src="img/day.svg">
+            <h3>Choose the date, time and purchase</h3>
+            <p>Click on your dream flight, choose the date and the time you want to fly, then purchase.</p>
+          </div>
+          <div class="sign-title-box col l4 s12">
+            <img src="img/plane.svg">
+            <h3 class="addpadding">Go and Fly</h3>
+            <p>Go to location noted the service page, bring the Flight Code with you and show it to your instructor or pilot, then enjoy your flight!</p>
+          </div>
+          <div class="sign-title-button">
+            <a href="#">Become A Provider</a>
+          </div>
+        </div>
+      </div>
+    </div>
+  </div>
+</div>
+</div>
+<footer class="page-footer">
+  <div class="container">
+    <div class="row">
+      <div class="col l12">
+        <div class="col l4 s12">
+          <a href="#!" class="brand-logo hide-on-small-only"><img src="img/logo-transparent.png" id="footer-logo" alt=""></a>
+          <p class="sloganText  text-lighten-4">Make flying accessible and affordable</p>
+        </div>
+        <div class="col l2 offset-l2 s12">
+          <h5 class="">Company</h5></a>
+          <ul>
+            <li class="col l12 s4"><a class=" text-lighten-3" href="">About Us</a></li>
+            <li class="col l12 s4"><a class=" text-lighten-3" href="">Careers</a></li>
+            <li class="col l12 s4"><a class=" text-lighten-3" href="">FAQ</a></li>
+          </ul>
+        </div>
+        <div class="col l2 footer-Policy">
+          <h5 class="">Legal</h5></a>
+          <ul>
+            <li class="col l12"><a class=" text-lighten-3" href="">Cancellation Policy</a></li>
+            <li class="col l12"><a class=" text-lighten-3" href="">Terms of Use</a></li>
+            <li class="col l12"><a class=" text-lighten-3" href="">Privacy Policy</a></li>
+          </ul>
+        </div>
+        <div class="col l2  s12">
+         <h5 class="">Contact Us</h5>
+          <ul>
+            <li class="col l12 s6"><a class=" text-lighten-3">nelson.dai@airacer.com</a></li>
+            <li class="col l12 s6"><a class=" text-lighten-3">+1 9177439086</a></li>
+            <li class="col l12  s12"><a class=" text-lighten-3">Mon - Fri, 9 A.M. to 5 P.M. EST</a></li>
+          </ul>
+        </div>
+      </div>
+      <div class="footer-copyright col l12">
+        <div class="col l4">
+          <ul class="social-media">
+            <li><a href=""><i class="fa fa-1x fa-facebook"></i></a></li>
+            <li><a href=""><i class="fa fa-1x fa-instagram"></i></a></li>
+            <li><a href=""><i class="fa fa-1x fa-twitter"></i></a></li>
+          </ul>
+        </div>
+        <div class="col l7 offset-l2">
+          <a class="black-text text-lighten-4 " href="#!">©2017 Airacer Inc. All rights reserved</a>
+        </div>
+      </div>
+    </div>
+  </div>
+</footer>
+<script type="text/javascript">
+  $(function(){
+    if(screen.width < 980){
+      $('.banner_top').slick({
+        slidesToShow: 1,
+        slidesToScroll: 1,
+        arrows: false,
+        // fade: true,
+        autoplay: true,
+        speed: 500,
+        autoplaySpeed: 2000,
+        asNavFor: '.banner_bottom'
+      });
+      $('.banner_bottom').slick({
+        slidesToShow: 4,
+        slidesToScroll: 1,
+        arrows: false,
+        asNavFor: '.banner_top',
+        dots: false,
+        focusOnSelect: true
+      });
+      var activeheight = $('.banner_bottom .slick-current.slick-slide').height();
+      $('.banner_bottom .slick-track').css('height',activeheight+'px');
+      $('.banner_bottom .slick-track .slick-slide').css('line-height',activeheight+'px');
+    }
+    $('.starType').raty({ readOnly: true, score: function() {
+      return $(this).attr('data-score');
+    } ,starType : 'i' ,starOn: 'iconfont icon-feiji light-plane',starOff: 'iconfont icon-feiji'});
+    $('#popularFlights').slick({
+      slidesToShow: 4,
+      slidesToScroll: 1,
+      centerPadding: '10px',
+      dots: false,
+      arrows: false,
+      centerMode: false,
+      focusOnSelect: true,
+      responsive: [
+        {
+          breakpoint: 770,
+          settings: {
+          // infinite: true,
+          speed: 300,
+          // centerMode: true,
+          variableWidth: true,
+          slidesToShow: 1,
+          slidesToScroll: 1,
+          arrows: false,
+          fade: false,
+          }
+        },
+      ],
+    });
+
+    $('#featuredFlights').slick({
+      slidesToShow: 4,
+      slidesToScroll: 1,
+      centerPadding: '10px',
+      dots: false,
+      arrows: false,
+      centerMode: false,
+      focusOnSelect: true,
+      responsive: [
+        {
+          breakpoint: 770,
+          settings: {
+          // infinite: true,
+          speed: 300,
+          // centerMode: true,
+          variableWidth: true,
+          slidesToShow: 1,
+          slidesToScroll: 1,
+          arrows: false,
+          fade: false,
+          }
+        },
+      ],
+    });
+
+    $('#whyus-btn').on('click',function(){
+       $('body').animate({scrollTop: $('#whyus').offset().top-30}, 1000);
+    });
+  // dropdown-search
+  $('.search-btn').on('click',function(){
+    if($('.dropdown-search').css('display') === 'none'){
+      $('.dropdown-search').fadeIn();
+    }else{
+      $('.dropdown-search').fadeOut();
+    }
+  });
+  $('.search-submit').on('click',function(){
+    $('.dropdown-search').fadeOut();
+  });
+  $('#close-dropdown').on('click',function(){
+    $('.dropdown-search').fadeOut();
+  })
+});
+  // auto indexCarousel
+  var timer = null;
+  function startTimer(){
+    timer = setInterval(function(){
+      if($('#indexCarousel li>.active').parent()[0] === $('#indexCarousel #lastLi')[0]){
+        // console.log($('#indexCarousel li').first().children())
+        $('#indexCarousel li').first().children().click()
+      }else{
+        $('#indexCarousel li>.active').parent().next().children().click()
+      }
+    },3000)
+  }
+  startTimer()
+  $('#indexCarousel').on('mouseenter',function(){
+    clearInterval(timer)
+  })
+  $('#indexCarousel').on('mouseleave',function(){
+    startTimer()
+  })
+  // onmouseoverClick
+  $('#indexCarousel li').on('mouseenter',function(){
+    console.log($(this).children())
+    $(this).children().click()
+  })
+</script>
+</body>
+</html>

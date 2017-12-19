@@ -1,0 +1,11 @@
+My Website Final Design Reflection
+
+The final project I based on the midterm examinations, the site has been optimized. In order to give users a better experience. So I added one more page, this page is a product layout page. It can help users search for the desired product. In addition, because different products are in different regions, so I added the google map to retrieve and mark the location. This allows users more clearly to see where the airport is, will greatly reduce the workload of customer service. At the same time, will  help to users make the  decision to buy the product.
+ I also added the capabilities of firebase and riot.
+
+In firebase, I try to log in directly via social media, so that users can become our members as quickly as possible，as easy as possible. On one hand, it helps users to reduce the times to enter personal data when they repeatedly purchase products. It also helps me to get  data, conduct accurate advertising and market research. Data is the oil of the future world. If you can easily access user's data, this will be helpful for future expansion of the company.
+In terms of riot, I added a few tags features that make it easy for users to find their products for precise retrieval across a wide range of products.
+For the web front-end development, I strive to make the product more clean and tidy, with a minimalist model, a clearer expression of my theme. This is also a mainstream design concept of major websites.
+
+There is still a long way to go in developing back-end web pages. We need to design the pages for providers sign up, and manage the data uploaded by provider and customers. (including images and product descriptions, geographic information, etc.) Of course, we have to design the fair and equitable review system for users, by writing the function allows user to check the evaluation. The amount of this project goes far beyond the development of front-end pages, so I still need some time to fully improve the production of this web page.
+

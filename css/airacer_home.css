@@ -1,0 +1,720 @@
+h1,p,a{
+  font-family: Avenir;
+} 
+html{
+  -webkit-overflow-scrolling: touch;
+}
+.box:after,.box::before{
+  content: ".";
+  display: block;
+  height: 0px;
+  clear: both;
+  visibility: hidden;
+}
+.container{
+  width: 960px;
+}
+.slider{
+  margin-left: -20px;
+}
+.airacerHome{
+  padding-top: 70px;
+}
+.airacerHome h1{
+  margin:0;
+  font-size: 64px;
+  color: #29b6f6;
+  font-weight: bold;
+}
+.airacer_header p{
+  margin: 0;
+  font-size: 36px;
+  line-height: 36px;
+}
+.air-form {
+  display: flex;
+  flex-flow: wrap;
+  justify-content: space-between;
+  margin-right: 60px;
+  font-size: 13px;
+  margin-top: 50px;
+}
+.airacerHome .input-field{
+  width: 270px;
+}
+.airacerHome input{
+  width: 270px;
+  height: 44px;
+  background-color: #29b6f6;
+  color: #fff;
+  border-width: 0;
+}
+.airacer-form-buttom{
+  margin-top: 15px;
+}
+.select-wrapper input.select-dropdown{
+  text-align: center;
+  font-size: 13px;
+  border: 1px solid #ccc;
+  height: 14px;
+  margin: 0; 
+  padding: 14px 0;
+  line-height: 14px;
+}
+
+.dropdown-content li>a, .dropdown-content li>span{
+  font-size: 13px;
+}
+.line{
+  display: none;
+}
+.line-first{
+  display: none;
+}
+.airacerHome .airacer-h2{
+  font-size: 36px;
+  margin: 0;
+  padding: 20px 0;
+}
+.airacer-customers .airacer-h2{
+  padding-bottom: 0;
+}
+.airacerHome  .airacer-nopad{
+  padding-bottom: 0;
+  padding-top: 30px;
+}
+.airacer-header-box {
+  margin-bottom: 60px;
+}
+.airacerHome .airacer-service span{
+  border: 2px solid #29b6f6;
+  border-radius: 50%;
+  font-size: 24px;
+  width: 37px !important;
+  text-align: center;
+  height: 37px;
+  color: #29b6f6;
+  padding: 0 10px;
+}
+.airacerHome .airacer-service p{
+  font-size: 21px;
+  display: inline-block;
+  margin: 0;
+  padding-bottom: 20px;
+  letter-spacing: 1px;
+}
+.airacer-service-img{
+  display: inline-block; 
+  height: 420px;
+  overflow: hidden;   
+}
+.airacer-customers-blue{
+  display: none;
+}
+.airacer-customers{
+  margin-bottom: 80px;
+}
+.airacer-customers-gray{
+  display: none;
+}
+.customers-header{
+  display: block;
+}
+.airacer-customers .airacer-customers-title .customers-price-header p{
+  font-size: 24px;
+  margin: 0;
+  line-height: 24px;
+  padding-top:36px;
+  padding-left: 10px;
+  border-left: 10px solid #979797;
+  height: 100%;
+  background-color: #f7f7f7;
+ }
+.airacer-customers .airacer-customers-title .customers-price-header{
+  height: 100%;
+  opacity: 0.8;
+  padding-right: 0;
+}
+.airacer-customers .airacer-customers-title .customers-price-left p{
+  font-size: 20px;
+  margin: 0;
+  color: #fff;
+  line-height: 20px;
+  padding: 30px 28px;
+}
+.airacer-customers  .airacer-customers-title .customers-price-left{
+  height: 100%;
+  opacity: 0.8;
+  background-color: #29b6f6;
+  letter-spacing: 2px;
+}
+
+.airacer-customers  .airacer-customers-title .customers-price-right p{
+  font-size: 20px;
+  margin: 0;
+  background-color: #f7f7f7;
+  line-height: 20px;
+  padding: 29px 30px;
+
+}
+.airacer-customers  .airacer-customers-title .customers-price-right{
+  background-color: #f7f7f7;
+  height: 100%;
+  letter-spacing: 2px;
+}
+.customers-title-box{
+  margin-bottom: 16px;
+  height: 100px;
+}
+.airacer-customers-header .customers-header{
+  text-align: center;
+  font-size: 24px;
+}
+.airacer-customers-header .customers-header p{
+  margin: 20px 0 !important;
+  line-height: 1;
+}
+.airacer-sign-video{
+  text-align: center;
+  margin-bottom:60px;
+  margin-top: 20px;
+}
+.airacer-sign-title h3{
+  font-size: 18px;
+  margin: 0;
+  padding: 18px 20px;
+}
+.airacer-sign-title img{
+  width: 37px;
+}
+.airacer-sign-title .sign-title-box{
+  text-align: center;
+  padding: 0 44px;
+}
+.airacer-sign-title p{
+  text-align: left;
+  margin: 0;
+}
+.airacer-sign-title .addpadding{
+  padding-bottom: 36px;
+}
+.airacer-sign-video p{
+  font-size: 18px;
+  margin: 0;
+  padding-top: 20px;
+}
+.airacer-sign-title .sign-title-button{
+  display: none;
+}
+.featuredService{
+  padding-top: 70px;
+}
+.featuredService .pop-flyImg{
+  height: 160px;
+}
+.banner{
+  margin-bottom: 60px;
+}
+.banner .tabs{
+  border-bottom: 2px solid #ddd;
+}
+.banner .tabs .tab:first-child a{
+  padding-left: 0;
+}
+.banner .tab a{
+  color: #333;
+  text-transform: none;
+  font-size: 18px;
+}
+.banner .tab a{
+  padding:0 15px;
+}
+.banner .tab a:hover,.banner .tab a.active{
+  color: #29b6f6;
+}
+.banner .tabs .indicator{
+  background-color: #29b6f6;
+  height: 3px;
+}
+.banner_item{
+  padding: 20px 0;
+  position: relative;
+  max-height: 420px;
+  overflow: hidden;
+}
+.banner_item img{
+  width: 100%;
+}
+.banner_content{
+  position: absolute;
+  top: 50px;
+  left: 40px;
+  background-color: rgba(0,0,0,.3);
+  padding: 24px;
+  width: 335px;
+}
+.banner_content h4{
+  font-size: 36px;
+  color: #fff;
+  margin: 0 0 10px;
+}
+.banner_content p{
+  color: #fff;
+  font-size: 20px;
+  margin-bottom: 20px;
+  width: 240px;
+}
+.banner_content a{
+  width: 100%;
+  display: block;
+  color: #fff;
+  font-size: 14px;
+  padding: 8px;
+  text-align: center;
+  background-color: #29b6f6;
+}
+.banner_phone{
+  display: none;
+}
+.serviceSection .airboard-search-box p{
+  margin: 10px 0;
+}
+footer .container{
+  padding-left: 10px;
+  padding-right: 10px;
+}
+.page-footer .col ul>li{
+  padding-left: 0;
+}
+section{
+  display: block;
+}
+.more a{
+  display: inline-block;
+  color: #909090;
+  font-size: 20px;
+}
+.more a:hover{
+  color: #29b6f6;
+}
+.serviceSection .slick-initialized .slick-slide{
+  padding-left: 30px;
+}
+footer .container{
+  padding-top: 0;
+}
+.airacer-sign-title{
+  padding-bottom: 90px;
+}
+.page-footer .footer-header{
+  font-weight: initial;
+}
+.serviceSection .airboard-search-box{
+  color: #363636;
+}
+.phone_flights{
+  display: none;
+}
+.popularService .pop-flyImg{
+  width: 100%;
+  height: 155px;
+  overflow: hidden;
+  position: relative;
+}
+@media only screen and (max-width: 600px) {
+  .container{
+    width: 100%;
+  }
+  .slider {
+      margin-left: 3px;
+  }
+  .airacerHome{
+    padding-top: 20px;
+  }
+  .airacer-header-box{
+    margin-bottom: 0;
+  }
+  .more a{
+    display: none;
+  }
+  .banner_web{
+    display: none;
+  }
+  .banner_phone{
+    display: block;
+    padding: 10px;
+  }
+  .banner_top .phone_item h4{
+    font-size: 18px;
+    color: #000;
+    margin-bottom: 20px;
+  }
+  .banner_top .phone_item img{
+    width: 100%;
+  }
+  .banner_top .phone_item .phone_item_text{
+    padding: 20px;
+  }
+  .banner_bottom img{
+    width: 90%;
+    vertical-align: bottom;
+    display: inline !important;
+  }
+  .banner_bottom .slick-slide.slick-active{
+    width: 22% !important;
+    outline: none;
+    /*position: relative;*/
+  } 
+  .banner_bottom .slick-slide.slick-current.slick-active{
+    width: 34% !important;
+  }
+  .phone_item_text p{
+    width: 50%;
+    display: inline-block;
+    margin: 0;
+  }
+  .line.banner_phone{
+    padding: 0;
+  }
+  .phone_item_text a{
+    float: right;
+    padding: 8px 45px;
+    background-color: #29b6f6;
+    color: #fff;
+    font-size: 16px;
+  }
+  .airacerHome .input-field{
+    width: 28%;
+  }
+  .airacerHome .input-flights{
+    width: 36%;
+  }
+  .airacerHome input{
+    width: 100%;
+    height: 22px;
+
+  }
+  .air-form {
+    margin-top: 0;
+    margin-right: 0;
+    font-size: 8px;
+  }
+  .input-field .icon-down1{
+    font-size: 2px;
+  }
+  .select-wrapper input.select-dropdown{
+    font-size: 8px;
+    padding: 4px 0;
+    line-height: 8px;
+  }
+  .dropdown-content li>a, .dropdown-content li>span{
+    font-size: 10px;
+  }
+  .airacer_header p{
+    margin: 0;
+    font-size: 18px;
+    line-height: 24px;
+  }
+  .airacerHome h1{
+    margin:0;
+    font-size: 24px;
+    padding-top: 20px;
+    padding-bottom: 10px;
+  }
+  .line{
+      border: 1px solid rgba(0,0,0,0.2);
+      display: block;
+      margin: 50px 0px 30px 0px;
+  }
+  .line-first{
+      border: 1px solid rgba(0,0,0,0.2);
+      display: block;
+      margin: 20px 10px;
+  }
+  .airacer-form-buttom{
+      width: 30%;
+  }
+  .airacerHome .airacer-h2{
+    font-size: 20px;
+    margin: 0;
+    padding-bottom: 15px;
+    padding-left: .75rem;
+  }
+  .phone_flights .airacer-h2{
+    padding-left: 0;
+  }
+
+/*   .airacerHome .airacer-service .s1{
+    border-radius: 50%;
+    font-size: 12px;
+    width: 22px;
+    padding: 0 6px;
+  } */
+  .airacerHome .airacer-service p{
+    font-size: 16px;
+    margin: 0;
+    padding-bottom: 20px;
+  }
+  .airacerHome .airacer-service span{
+    width:19px !important;
+    height: 19px;
+    font-size: 12px;
+    line-height: 16px;
+    text-align: center;
+    padding: 0;
+  }
+  .airacer-sign-title h3 {
+    padding: 18px 63px;
+  }
+  .airacer-form-buttom input{
+    height: 24px;
+    margin-top: -1px;
+  }
+  .airacer-service-img{
+    display: none;
+  }
+  .airacer-customers-blue{
+    display: block;
+  }
+  .airacer-customers-blue i{
+    width: 28px;
+    height: 6px;
+    border: 3px solid #29b6f6;
+    display: inline-block;
+    margin:0 10px;
+  }
+  .airacer-customers-blue span{
+    display: inline-block;
+    font-size: 10px;
+  }
+  .airacer-customers-gray{
+    display: block;
+  }
+  .airacer-customers-gray i{
+    width: 28px;
+    height: 6px;
+    border: 3px solid #dfdfdf;
+    display: inline-block;
+    margin:0 10px;
+  }
+  .airacer-customers-gray span{
+    display: inline-block;
+    font-size: 10px;
+  }
+  .customers-header{
+    display: none;
+  }
+  .airacer-customers .airacer-customers-title .customers-price-header{
+    height: 50%;
+    border: none;
+    margin-top: 20px;
+  }
+  .airacer-customers .airacer-customers-title .customers-price-header p{
+    padding: 0;
+    font-size: 14px;
+    background-color: #fff;
+    border-left:none;
+  }
+  .customers-title-box{
+    margin-bottom: 16px;
+    height: 55px;
+  }
+  .airacer-customers .airacer-customers-title .customers-price-left{
+    background-color: initial;
+    letter-spacing: 1px;
+  }
+  .airacer-customers .airacer-customers-title .customers-price-left p{
+    font-size: 14px;
+    height: 100%;
+    text-align: center;
+    background-color: #29b6f6;
+    padding-top: 8px;
+    padding-left: 15px;
+    padding-right: 15px;
+
+  }
+  .airacer-customers .airacer-customers-title .customers-price-right{
+    background-color: initial;
+    padding-left: 0;
+    letter-spacing: 0px;
+  }
+  .airacer-customers .airacer-customers-title .customers-price-right p{
+    font-size: 14px;
+    text-align: center;
+    background-color: #f7f7f7;
+    padding-top: 8px;
+    padding-left: 15px;
+    padding-right: 15px;
+    height: 100%;
+  } 
+  .airacer-customers .airacer-customers-title .customers-price-short p{
+    padding-left: 20px;
+    padding-right: 20px;
+  }
+  .airacer-customers .airacer-customers-title .customers-price-long p{
+    padding-left: 0px;
+    padding-right: 0px;
+   }
+  .airacer-sign-title .sign-title-box{
+    padding: 30px 20px 0px 20px;
+  }
+  .airacer-sign-video{
+    margin-bottom:0;
+  }
+  .airacer-sign-title .sign-title-button{
+    display: inline-block;
+  }
+  .airacer-sign-title .sign-title-button a{
+    background-color: #29b6f6;
+    color: #fff;
+    padding: 10px 10px;
+    display: inline-block;
+    margin-top: 50px;
+  }
+  .airacer-sign-title .sign-title-button{
+    text-align: center;
+    display: block;
+  }
+  video{
+    width: 278px;
+    height: 156px;
+  }
+  .airacer-customers .airacer-customers-title .customers-price-header{
+    height: auto;
+    background-color: #fff;
+    border:none;
+  }
+  .featuredService{
+    display: block;
+  }
+  div.featuredService{
+    margin-top: initial;
+  }
+  .featuredService{
+    padding:0;
+  }
+  .hide-on-small-only, .hide-on-small-and-down{
+    
+  }
+  footer{
+    display: block;
+  }
+  .hide-on-small-only{
+    display: inline-block !important;
+  }
+  #footer-logo{
+    max-height: 15px;
+  }
+  .page-footer{
+    text-align: center;
+    padding: 0 ;
+  }
+  footer .sloganText{
+    font-size: 12px;
+  }
+  footer .container{
+    padding: 30px 10px;
+  }
+  .airacer-customers{
+    margin-bottom: 50px;
+  }
+  .page-footer div.footer-copyright{
+    display: none;
+  }
+  .page-footer h5{
+    margin: 18px 0;
+  }
+  .page-footer .container ul:not(.browser-default)>li{
+    padding-bottom: 10px;
+  }
+  .footer-Policy{
+    display: none;
+  }
+  .page-footer .col ul>li{
+  padding-left: 10px;
+  }
+  .featuredService{
+    margin-left: 0;
+  }
+  iframe{
+    width: 95%;
+    height: 230px;
+  }
+  .serviceSection .slick-initialized .slick-slide{
+    padding-left: 8px;
+  }
+  section{
+    display: none;
+  }
+  .page-footer .footer-option{
+    display: block;
+  }
+  .phone_img{
+    height: 150px;
+    overflow: hidden;
+  }
+  .phone_flights{
+    display: block;
+  }
+  .phone_banner{
+    height: 180px;
+    overflow-y: hidden;
+    margin-left: 0px;
+    margin-bottom:  28px;
+  }
+  .phone_banner_box {
+    height: 200px;
+    overflow: scroll;
+    white-space: nowrap;
+  }
+  .phone_banner .phone-search{
+    display: inline-block;
+    margin-right: 8px;
+  }
+  .phone_banner .phone-search-box{
+    display: inline-block;
+    color: #363636;
+  } 
+  .phone_banner .phone-flyImg{
+    width: 160px;
+    height: 120px;
+    overflow: hidden;
+    position: relative;
+  }
+  .phone_banner .phone-flyImg img{
+    width: 100%;
+    max-width: 100%;
+    max-height: 100%;
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%,-50%);
+  }
+  .phone-search-head{
+    font-size: 11px;
+    margin: 0;
+    font-weight: bold;
+  }
+  .phone-search-head span{
+    font-weight: bolder;
+    font-size: 12px;
+    padding-right: 8px;
+  }
+  .phone-search-site{
+    font-size: 9px;
+    margin: 0;
+    padding-top: 2px;
+  }
+  .phone-ion-minute{
+    display: inline-block;
+    font-size: 8px;
+    font-weight: bold;
+  }
+  .starType{
+    display: inline-block;
+  }
+  .starType i{
+    font-size: 8px;
+  }
+
+}

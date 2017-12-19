@@ -1,0 +1,102 @@
+<html  dir="ltr" lang="en-US">
+  <head>
+  	<meta http-equiv="Content-Type" content="text/html; charset=UTF-8">
+    <meta charset="utf-8">
+    <link rel="stylesheet" type="text/css" href="css/materialize.min.css">
+    <link rel="stylesheet" href="css/nav.css">
+    <link rel="stylesheet" href="css/index.css">
+    <title>Riot todo</title>
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <link rel="stylesheet" href="todo.css">
+  </head>
+  <body>
+    <nav class="nav-navBar white ">
+    <div class="nav-wrapper">
+      <a href="index.html" class="brand-logo"><img src="img/logo-transparent.png" alt=""></a>
+      <a href="#" data-activates="mobile-demo" class="button-collapse">
+        <i class="iconfont icon-up"></i>
+      </a>
+      <div class="input-field field-search-top">
+          <buttom class="search-btn">Search<i class="ion-search top-search"></i></buttom>
+      </div>
+       <ul class="left hide-on-med-and-down non-drop">
+        <li class="non-drop"><a href="product-layout.html">Discovery Flight</a></li>
+        <li class="non-drop"><a href="product-layout.html">Flightseeing Tour</a></li>
+        <li class="non-drop"><a href="product-layout.html">Pilot Training</a></li>
+        <li class="non-drop"><a href="product-layout.html">Rental</a></li>
+      </ul>
+      <ul class="right hide-on-med-and-down">
+        <li class="non-drop" id="whyus-btn"><a href="javascript::" >Why Us?</a></li>
+        <li class="non-drop"><a href="provider.html" class="btn light-blue lighten-1 waves-effect waves-light">Become a Provider</a></li>
+        <li class="non-drop"><a class="authBtn">SignUp/Login</a></li>
+      </ul>
+      </div>
+  </nav>
+
+    <todo></todo>
+    <script src="https://rawgit.com/riot/riot/master/riot.min.js"></script>
+    <script src="todo.js"></script>
+
+    <script>
+    riot.mount('todo', {
+      title: 'Want to save it in your wishlist? You can also add some tags, easy to find it next time',
+      items: [
+        { title: 'the lowest price', done: true },
+        { title: 'good aircraft model', hidden: true },
+        { title: 'handsome instructor' },
+        { title: 'close to my home' }
+      ]
+    })
+    </script>
+
+    <footer class="page-footer">
+      <div class="container">
+        <div class="row">
+          <div class="col l12">
+            <div class="col l4 s12">
+              <a href="#!" class="brand-logo hide-on-small-only"><img src="img/logo-transparent.png" id="footer-logo" alt=""></a>
+              <p class="sloganText  text-lighten-4">Make flying accessible and affordable</p>
+            </div>
+            <div class="col l2 offset-l2 s12">
+              <h5 class="">Company</h5></a>
+              <ul>
+                <li class="col l12 s4"><a class=" text-lighten-3" href="">About Us</a></li>
+                <li class="col l12 s4"><a class=" text-lighten-3" href="">Careers</a></li>
+                <li class="col l12 s4"><a class=" text-lighten-3" href="">FAQ</a></li>
+              </ul>
+            </div>
+            <div class="col l2 footer-Policy">
+              <h5 class="">Legal</h5></a>
+              <ul>
+                <li class="col l12"><a class=" text-lighten-3" href="">Cancellation Policy</a></li>
+                <li class="col l12"><a class=" text-lighten-3" href="">Terms of Use</a></li>
+                <li class="col l12"><a class=" text-lighten-3" href="">Privacy Policy</a></li>
+              </ul>
+            </div>
+            <div class="col l2  s12">
+             <h5 class="">Contact Us</h5>
+              <ul>
+                <li class="col l12 s6"><a class=" text-lighten-3">nelson.dai@airacer.com</a></li>
+                <li class="col l12 s6"><a class=" text-lighten-3">+1 9177439086</a></li>
+                <li class="col l12  s12"><a class=" text-lighten-3">Mon - Fri, 9 A.M. to 5 P.M. EST</a></li>
+              </ul>
+            </div>
+          </div>
+          <div class="footer-copyright col l12">
+            <div class="col l4">
+              <ul class="social-media">
+                <li><a href=""><i class="fa fa-1x fa-facebook"></i></a></li>
+                <li><a href=""><i class="fa fa-1x fa-instagram"></i></a></li>
+                <li><a href=""><i class="fa fa-1x fa-twitter"></i></a></li>
+              </ul>
+            </div>
+            <div class="col l7 offset-l2">
+              <a class="black-text text-lighten-4 " href="#!">©2017 Airacer Inc. All rights reserved</a>
+            </div>
+          </div>
+        </div>
+      </div>
+    </footer>
+  </body>
+
+</html>

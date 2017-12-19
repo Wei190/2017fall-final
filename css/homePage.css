@@ -1,0 +1,1149 @@
+.homeSection {
+
+    height: calc(85vh);
+    width: 100%;
+
+    background:
+    linear-gradient(
+      to bottom,
+      rgba(0, 0, 0, 0),
+      rgba(0, 0, 0, 0.4)
+    ),
+    url('../img/HomePagePic.jpg'),
+    no-repeat;
+    background-size: cover;
+    background-repeat: no-repeat;
+    padding: 0 10%;
+}
+.homeSection .homeSloganContainer {
+    max-height: 20vh;
+    padding-top: 159px;
+}
+.homeSection .sub-slogan {
+    color:  #fff;
+    margin-top: 17px;
+    font-family: 'Helvetica Neue', sans-serif;
+    font-weight: 400;
+    font-size: 20px;
+    line-height: 26px;
+    letter-spacing: 0.5px;
+}
+.select-wrapper span.caret {
+    display: none;
+
+}
+.aircaret {
+    position: relative;
+    left: 85%;
+    bottom: 32px;
+}
+.aircaret.caret1 {
+    left: 90%;
+}
+.aircaret.caret2 {
+    left: 90%
+}
+.homeSection .slogans {
+    padding-top: 3vh;
+    position: relative;
+    top: -50px;
+    padding-bottom: 2vh;
+}
+.homeSection .homeSloganContainer {
+    font-size: 36px;
+    font-family: 'Times New Roman', sans-serif;
+}
+.brand-text img {
+  height: 50px;
+}
+h1.homeSlogan {
+    color: #fff;
+    font-weight: 300;
+    font-size: 52px;
+    line-height: 45pt;
+    margin: 0;
+    letter-spacing: 1px;
+    display: block;
+}
+h1.mobileSlogan {
+    display: none;
+}
+p.mobileSubSlogan {
+    display: none;
+}
+.brand-text {
+  font-weight: 700;
+}
+.homeBackgroundContainer {
+    display: none;
+}
+.homeSignupFormContainer {
+    position: fixed;
+    top: 30%;
+    left: 50%;
+    transform: translateX(-50%);
+    background-color: #f8f8f9;
+    z-index: 10;
+    padding: 32px;
+    font-family: 'Helvetica Neue', sans-serif;
+}
+.backgroundOverlay {
+    height: 100vh;
+    width: 100%;
+    position: fixed;
+    top: 0;
+    background-color: #333;
+    opacity: 0.7;
+    z-index: 9;
+    display: none;
+}
+button.btn.subscribe {
+    min-height: 44px;
+    max-width: 108px;
+    box-sizing: border-box;
+    padding: 0 15px;
+    box-shadow: none;
+}
+#closeBtn {
+    position: absolute;
+    top: 5px;
+    right: 5px;
+}
+.formImg1 {
+    height: 60px;
+}
+.homeSignupFormContainer h1 {
+
+    font-size: 20px;
+    font-weight: normal;
+    margin: 5px 0px;
+    display: inline;
+}
+.homeForm-2-8-div {
+    width: 100%;
+    box-sizing: border-box;
+}
+.formImg1Div {
+    width: 60px;
+    display: inline-block;
+    box-sizing: inherit;
+}
+.formText1Div {
+    width: 60%;
+    box-sizing: inherit;
+    padding-left: 20px;
+    vertical-align: 10px;
+    display: inline-block;
+}
+.formText1Div h1 {
+    letter-spacing: 1px;
+}
+.formText1Div a {
+    color: #29b6f6;
+    font-weight: 700;
+    letter-spacing: 1px;
+}
+.dividerText {
+    text-align: center;
+    text-transform: uppercase;
+    color: rgba(50, 50, 50,0.5);
+    font-size: 9px;
+    line-height: 8px;
+    padding: 5px;
+    background-color: #f8f8f9;
+    position: relative;
+}
+.formDivider {
+    width: 100%;
+    height: 12px;
+    border-bottom: 1px solid rgb(220, 220, 220);
+    text-align: center;
+}
+.homeSignupForm {
+    margin-top: 20px;
+}
+
+.homeSignupForm .formText1Div {
+    vertical-align: 25px;
+}
+.homeSignupForm .col {
+    padding: 0;
+
+}
+.recruit-div {
+    margin-top: 20px;
+
+}
+.recruit-div .formText1Div {
+    vertical-align: 20px;
+}
+
+.featuredService {
+    margin-top: -585px;
+}
+
+.homeSignupForm input {
+    border: 1px solid rgb(200, 200, 200);
+    padding-left: 15px;
+    box-sizing: border-box;
+    background-color: #fff;
+}
+.homeSignupForm .last-name-input input {
+    border-left: none;
+
+}
+.homeSignupForm input[type=text]:focus:not([readonly]) {
+    outline: none;
+    border-bottom: 1px solid rgb(200, 200, 200);
+    box-shadow: none;
+}
+.serviceSection {
+    width: 100%;
+
+    padding: 30px 10%;
+}
+.serviceSection #date-label {
+    position: relative;
+    margin-bottom: 20px;
+}
+.serviceForm {
+    width: 100%;
+    border-radius: 3px;
+    box-shadow: 0 1px 3px 0px rgba(0, 0, 0, 0.08);
+    position: relative;
+    top: -300px;
+}
+.serviceForm.row {
+    margin-bottom: 17px;
+}
+.serviceForm .col {
+    background-color: white;
+    margin-top: 0;
+    padding: 15px;
+    height: 80px;
+}
+.serviceForm .btn-col {
+    border: none;
+}
+.serviceSection .serviceForm .select-wrapper {
+    z-index: 10;
+}
+.serviceSection .serviceForm input.select-dropdown {
+    font-family: 'Helvetica Neue', sans-serif;
+    text-transform: uppercase;
+    border-color: transparent;
+    margin-bottom: 0;
+    font-weight: 400;
+    letter-spacing: 1px;
+    text-align: center;
+}
+.serviceSection .serviceForm ul li span {
+    font-family: 'Helvetica Neue', sans-serif;
+    text-align: center;
+    font-weight: 300;
+    letter-spacing: 1px;
+    text-transform: uppercase;
+    color: #333;
+}
+.serviceSection .serviceForm .datepicker {
+    width: 100%;
+    border: none;
+    color: #333;
+    font-family: 'Helvetica Neue', sans-serif;
+    text-align: center;
+    font-weight: 400;
+    letter-spacing: 1px;
+    text-transform: uppercase;
+}
+.serviceForm .submit-col {
+    height: 80px;
+    font-size: 15px;
+    font-family: 'Helvetica Neue', sans-serif;
+    text-align: center;
+    font-weight: 900;
+    letter-spacing: 1px;
+    text-transform: uppercase;
+    transition: 0.4s;
+    width: 100%;
+    padding: 0;
+}
+.submit-col .btn {
+    height: 100%;
+    width: 100%;
+    padding: 20px;
+    font-size: 20px;
+}
+.serviceForm .picker__date-display {
+    background-color: #29b6f6;
+}
+.serviceForm .picker__weekday-display {
+    background-color: #01579b;
+}
+.serviceForm .picker__day.picker__day--today {
+    color: #29b6f6;
+}
+.serviceForm .picker__close, .picker__today {
+    color: #29b6f6;
+}
+.serviceSection h1 {
+    font-size: 2rem;
+    font-family: 'Helvetica Neue', sans-serif;
+    font-weight: 300;
+    margin: 125px 0 30px 0;
+}
+.serviceSection .owl-item img {
+    margin: 5px 0 10px 0;
+    cursor: pointer;
+    height: auto;
+    min-height: 280px;
+}
+.serviceSection .owl-item .carousel-img {
+    height: 250px;
+    overflow: hidden;
+}
+.serviceProvider .col.s12.serviceText {
+    padding-left: 50px;
+    font-weight: 500;
+}
+.serviceSection .serviceForm .featured-trainers span {
+    font-weight: 900;
+}
+.serviceSection .owl-item h5 {
+    display: inline;
+    font-family: 'Helvetica Neue', sans-serif;
+    font-weight: 900;
+    margin-right: 1px;
+    font-size: 18px;
+    position: relative;
+    top: 2px;
+}
+.card-panel, .card {
+    box-shadow: none;
+}
+.serviceSection .owl-item .pkg-location {
+    font-weight: 300;
+}
+.serviceSection .owl-item .pkg-duration {
+    font-weight: 300;
+}
+.serviceSection .owl-item span {
+    font-family: 'Helvetica Neue', sans-serif;
+    font-weight: 400;
+    font-size: 18px;
+}
+.serviceSection .owl-item p {
+    font-family: 'Helvetica Neue', sans-serif;
+    font-weight: 600;
+    margin: 0;
+}
+.serviceSection .owl-item a.btn {
+  margin: 10px 0;
+}
+.lots-of-margin {
+  margin: 100px 0;
+}
+.serviceSection .item-details {
+    width: 100%;
+    min-height: 50px;
+    padding: 5px 0;
+}
+.adventurer .adventurerText {
+    padding-left: 10%;
+}
+.resultSection {
+  padding: 0 10%;
+  margin: 55px auto 125px auto;
+}
+.resultSection h1 {
+  color: #333;
+  font-size: 36px;
+  font-weight: 300;
+  font-family: 'Times New Roman';
+  text-align: center;
+}
+.resultSection .col {
+    position: relative;
+}
+.resultSection .left-test h1 {
+    text-align: right;
+    font-size: 100px;
+    background: linear-gradient(#fafafa, #fff);
+    letter-spacing: 5px;
+    margin: 10px 0;
+    position: absolute;
+    right: 0;
+    font-style: italic;
+}
+.resultSection .left-test h1:nth-of-type(1) {
+    width: 200px;
+}
+.resultSection .left-test h1:nth-of-type(2) {
+    top: 120px;
+    width: 290px;
+}
+.resultSection .right-test h1 {
+    text-align: left;
+    font-size: 36px;
+}
+.resultSection .right-test h1:first-of-type {
+    vertical-align: 30px;
+}
+.resultSection .right-test h1:nth-of-type(2) {
+    vertical-align: -40px;
+    display: inline;
+}
+.desktopVersion {
+        display: block;
+}
+.mobileVersion {
+        display: none;
+}
+.home-stock-1 {
+    position: relative;
+    top: -250px;
+    height: auto;
+    width: 450px;
+    left: 10%;
+    display: inline-block;
+}
+.whyUsSection {
+    width: 100%;
+    margin-top: -380px;
+}
+.whyUsSection .serviceProvider {
+    height: 35%;
+    width: 100%;
+    padding: 0 10%;
+}
+.whyUsSection .serviceProvider h1 {
+    font-size: 52px;
+    font-family: 'Times New Roman', sans-serif;
+    font-weight: 300;
+    font-style: italic;
+    margin: 20px 0;
+}
+.whyUsSection .serviceProvider p {
+    font-family: 'Helvetica Neue', sans-serif;
+    font-weight: 400;
+    margin: 0 20px;
+    font-size: 1.3rem;
+}
+.whyUsSection .serviceProvider .card p {
+    font-family: 'Helvetica Neue', sans-serif;
+    font-weight: 900;
+    margin: 0;
+    text-align: center;
+    list-style: square;
+}
+.whyUsSection .serviceProvider ul{
+    margin: 25px;
+}
+.whyUsSection .serviceProvider ul li{
+    margin: 10px 0px;
+    font-size: 24px;
+    line-height: 36px;
+    font-family: 'Helvetica Neue', sans-serif;
+    font-weight: 400;
+    list-style: square;
+}
+.whyUsSection .serviceProvider ul i{
+    color: #29b6f6;
+    margin: 0 10px;
+    vertical-align: -5px;
+    font-size: 2rem;
+    float: left;
+}
+.whyUsSection .serviceProvider ul span {
+  float: right;
+}
+.whyUsSection .adventurer {
+    height: 150vh;
+    width: 100%;
+    border-top: 1px solid rgb(230, 230, 230);
+    border-bottom: 1px solid rgb(230, 230, 230);
+    padding: 125px 0;
+    margin-top: 250px;
+    background-size: cover;
+    background-image: url(../img/Images/stock2.jpg)
+}
+.adventurer .home-stock-2 {
+    height: 300px;
+    width: 450px;
+    position: relative;
+    float: right;
+    right: 10%;
+    top:  -250px;
+}
+.home-stock-2.card {
+    padding: 0;
+    margin: 0;
+    background-color: transparent;
+    text-align: left;
+}
+.home-stock-2 .card-content {
+    background-color: transparent;
+    padding: 0;
+    text-align: left;
+}
+.home-stock-1 .card-content {
+    padding: 20px 0;
+    font-size: 19px;
+    line-height: 20px;
+}
+.adventurer h1 {
+    font-size: 52px;
+    font-family: 'Times New Roman', sans-serif;
+    font-weight: 300;
+    margin: 0px 0 20px -10px;
+    font-style: italic;
+}
+.whyUsSection .adventurer p {
+    font-family: 'Helvetica Neue', sans-serif;
+    font-weight: 200;
+    margin: 0 20px;
+    font-size: 1.3rem;
+}
+.whyUsSection .adventurer .card p {
+    font-family: 'Helvetica Neue', sans-serif;
+    font-weight: 900;
+    margin: 0;
+    padding: 16px 0;
+    text-align: left;
+}
+.whyUsSection .adventurer ul{
+    margin: 20px 10px;
+}
+.whyUsSection .adventurer ul li{
+    margin: 10px 0px;
+    font-size: 24px;
+    line-height: 36px;
+    font-family: 'Helvetica Neue', sans-serif;
+    font-weight: 400;
+    list-style: square;
+}
+.whyUsSection .adventurer ul i{
+    color: #29b6f6;
+    margin: 0 10px;
+    vertical-align: -5px;
+    font-size: 2rem;
+}
+div.parallax-container {
+    max-height: 442px;
+    background:
+    linear-gradient(
+      to bottom,
+      rgba(0, 0, 0, 0),
+      rgba(0, 0, 0, 0.4)
+    ),
+    no-repeat;
+}
+.moreSection .coverBackground {
+    padding-top: 75px;
+    padding-left: 15%;
+    width: 100%;
+    min-height: 550px;
+    background-image: url(https://drscdn.500px.org/photo/47748706/q%3D80_m%3D1500/23a996e7fc8cd0822e9238f630146a98);
+    background-size: cover;
+    background-position-y: -350px;
+}
+.adventurer .infoCube {
+    padding: 30px 40px 40px 40px;
+    width: 50%;
+    margin-left: 9%;
+    margin-top: 100px;
+    background-color: #fff;
+    color: #444;
+}
+.adventurer .infoCube h1 {
+    margin: 0;
+    font-family: 'Times New Roman', sans-serif;
+    font-weight: normal;
+    font-size: 3.5rem;
+    font-style: normal;
+}
+.adventurer .infoCube p {
+    font-family: 'Helvetica Neue', sans-serif;
+    letter-spacing: 0.5px;
+    font-weight: 300;
+    margin: 20px 0;
+    font-size: 16px;
+}
+.infoCube .btn {
+    margin-top: 10px;
+    padding: 0 37px;
+}
+.demoCube {
+    padding: 20px 50px;
+    background-color: rgba(0, 0, 0, 0.9);
+    min-height: 200px;
+    float: right;
+    position: relative;
+    top: -50px;
+    right: 25%;
+}
+.demoCube h1 {
+    font-size: 2.5rem;
+    text-align: left;
+    color: white;
+    font-style:normal;
+
+}
+.demoCube .btn {
+    margin: 0 auto;
+    display: block
+}
+.moreSection center {
+    margin: 20px;
+    font-family: 'Helvetica Neue';
+}
+.moreSection center p {
+    font-size: 1rem;
+     display: inline;
+    text-transform: capitalize;
+}
+.moreSection center .btn {
+    display: inline;
+    text-transform: capitalize;
+    margin-left: 10px;
+    border-radius: 3px;
+}
+.benefitsSection {
+    padding: 125px 10% 60px 10%;
+}
+.benefitsSection h1 {
+    font-size: 3rem;
+    font-family: 'Times New Roman';
+    font-weight: 300;
+    margin: 5px 0;
+}
+.benefitsSection p {
+    font-size: 1rem;
+    font-family: 'Helvetica Neue';
+    font-weight: 400;
+}
+.benefitsSection img {
+    margin: 0 auto;
+    display: block;
+    width: 100px;
+    margin-bottom: 30px;
+    height: 100px;
+}
+.benefitsSection .col {
+    margin: 30px 0;
+}
+.benefitsSection i {
+    text-align: center;
+    display: block;
+}
+.benefitsSection .col h3 {
+    font-size: 1.5rem;
+    margin: 5px 0;
+    font-weight: 700;
+    font-family: 'Helvetica Neue', sans-serif;
+    text-align: center;
+    min-height: 50px;
+}
+.benefitsSection .col p {
+    text-align: center;
+}
+.card .card-image img {
+    width: 450px;
+}
+
+#body {
+    background-color: white;
+    transition: 0.4s;
+}
+
+.home-tabs {
+    position: relative;
+    top: -303px;
+    margin-bottom: -330px;
+}
+.home-tabs .content-overlay {
+    height: 700px;
+    width: 100%;
+    margin: 0 auto;
+    background-color: white;
+    position: relative;
+    z-index: 0;
+}
+.home-tabs .content {
+    height: 500px;
+    width: 100%;
+    margin: 0 auto;
+    padding: 85px;
+    color: white;
+    position: relative;
+    z-index: 1;
+    background-size: cover;
+    font-family: 'Helvetica Neue', sans-serif;
+}
+.home-tabs .content h1 {
+    font-family: 'Times New Roman', sans-serif;
+    font-weight: 300;
+    letter-spacing: 1px;
+    margin: 0px;
+    font-size: 52px;
+    line-height: 24px;
+}
+.home-tabs .content p {
+    margin: 37px 0;
+    font-size: 20px;
+    font-family: 'Helvetica Neue', sans-serif;
+    line-height: 28px;
+}
+.home-tabs .content .btn {
+    padding: 0 19px;
+    font-size: 15px;
+}
+.home-tabs .content#discover {
+    background-image: url(../img/images/anchor1_bg.jpg);
+}
+.home-tabs .content#rental {
+    background-image: url(../img/images/anchor2_bg.jpg);
+}
+.home-tabs .content#training {
+    background-image: url(../img/images/anchor3_bg.jpg);
+    color: #444;
+}
+.home-tabs .content#tour {
+    background-image: url(../img/images/anchor4_bg.jpg);
+    color: #444;
+}
+.home-tabs .tab-anchors img {
+    width: 200px;
+    transition: 0.4s;
+}
+.tab-anchors div{
+    display: inline-block;
+    padding: 10px 5px;
+    background-color: white;
+    position: relative;
+    left: 0px;
+}
+.tab-anchors div:nth-of-type(1) {
+    left: 15px;
+    padding-left: 10px;
+}
+.tab-anchors div:nth-of-type(2) {
+    left: 10px;
+
+}
+.tab-anchors div:nth-of-type(3) {
+    left: 5px;
+}
+.tab-anchors div:nth-of-type(4) {
+    left: 0px;
+    padding-right: 10px;
+}
+.tab-anchors {
+    margin: 0 auto;
+    position: relative;
+    top: -280px;
+    width: 90%;
+}
+.tab-anchors img {
+    height: 130px;
+    width: 200px;
+}
+.tab-anchors div h5 {
+    margin: 10px 0;
+    text-align: left;
+    font-family: 'Helvetica Neue', sans-serif;
+    font-weight: 700;
+    font-size: 19px;
+}
+.tabActive {
+    position: relative;
+    bottom: 50px;
+    animation-name: tab-slide-up;
+    animation-duration: 0.5s;
+}
+@keyframes tab-slide-up {
+    0%   {bottom: 0;}
+    25%  {bottom: 5px;}
+    50%  {bottom: 10px;}
+    100% {bottom: 50px;}
+}
+.home-tabs .tab-anchors img {
+    width: 220px;
+    height: 150px;
+    transition: 0.4s;
+}
+@media only screen and (max-width: 1310px) {
+    .serviceProvider .col.s12.serviceText {
+        padding-left: 50px;
+        padding-top: 100px;
+    }
+    .home-tabs .tab-anchors img {
+        width: 180px;
+        height: 120px;
+        transition: 0.4s;
+    }
+}
+@media only screen and (max-width: 1310px) {
+    .home-tabs .tab-anchors img {
+        width: 160px;
+        height: 100px;
+        transition: 0.4s;
+    }
+}
+@media only screen and (max-width: 992px) {
+    .featuredService {
+        z-index: 1;
+        position: relative;
+    }
+    .home-tabs .tab-anchors img {
+        height: 100px;
+        width: 140px;
+        transition: 0.4s;
+    }
+    .tab-anchors div{
+        display: inline-block;
+        position: relative;
+        background-color: transparent;
+    }
+    .tab-anchors div:nth-of-type(1) {
+        padding: 0px;
+        left: 15px;
+    }
+    .tab-anchors div:nth-of-type(2) {
+        padding: 0px;
+        left: 25px;
+    }
+    .tab-anchors div:nth-of-type(3) {
+        padding: 0px;
+        left: 35px;
+    }
+    .tab-anchors div:nth-of-type(4) {
+        padding: 0px;
+        left: 45px;
+    }
+    .tab-anchors div h5 {
+        margin: 10px 0;
+        text-align: center;
+        font-family: 'Helvetica Neue', sans-serif;
+        font-weight: 400;
+        font-size: 14px;
+    }
+    .whyUsSection .adventurer {
+        height: 140vh;
+    }
+    .adventurer .row .adventurerText {
+        /*background-color: rgba(255, 255, 255, 0.7);*/
+        color: #444;
+        margin: 0 auto;
+        display: block;
+    }
+    .adventurer .infoCube {
+        width: 60%;
+        display: block;
+        margin: 40px auto 0 auto;
+    }
+    .adventurer .demoCube {
+        margin: 80px auto;
+        width: 60%;
+        display: block;
+        float: none;
+        position: static;
+        text-align: center;
+    }
+    .adventurer .demoCube .btn {
+        width: 100%;
+    }
+}
+@media only screen and (max-width: 800px) {
+    .whyUsSection .adventurer {
+        height: 170vh;
+    }
+    .homeSection .slogans {
+        padding-top: 0px;
+    }
+    div.homeSection {
+        padding: 0 20px;
+    }
+    .serviceSection {
+        padding: 0 20px;
+    }
+    .home-stock-1 {
+        margin: 0 auto;
+        position: relative;
+        top: -300px;
+        left: 0;
+    }
+    h1.homeSlogan {
+        font-size: 28px;
+        line-height: 32px;
+    }
+    .adventurer .demoCube {
+        padding-top: 5px;
+    }
+    .resultSection h1 {
+    color: #333;
+    font-size: 36px;
+    font-weight: 300;
+    font-family: 'Times New Roman';
+    text-transform: capitalize;
+    text-align: center;
+    }
+    .resultSection h1 span {
+    color: #444;
+    font-size: 80px;
+    text-align: right;
+    background: linear-gradient(#fafafa, #fff);
+    }
+    .resultSection h1.reg span {
+        vertical-align: 0px;
+    }
+    .resultSection h1.sat span {
+        vertical-align: 0px;
+    }
+}
+@media only screen and (max-width: 678px) {
+    div.tab-anchors {
+        margin: 0 auto;
+        position: relative;
+        top: -280px;
+        width: 100%;
+    }
+    div.tab-anchors div{
+        display: inline-block;
+        position: relative;
+        background-color: transparent;
+        padding: 0;
+    }
+    .tab-anchors div:nth-of-type(1) {
+        padding: 0px;
+        left: 0px;
+    }
+    .tab-anchors div:nth-of-type(2) {
+        padding: 0px;
+        left: 5px;
+    }
+    .tab-anchors div:nth-of-type(3) {
+        padding: 0px;
+        left: 10px;
+    }
+    .tab-anchors div:nth-of-type(4) {
+        padding: 0px;
+        left: 15px;
+    }
+    .serviceSection .owl-item h5 {
+        font-size: 30px;
+    }
+    .serviceSection .owl-item .pkg-location {
+        font-size: 28px;
+    }
+    .serviceSection .owl-item span {
+        font-size: 28px;
+    }
+    .serviceSection .owl-item .pkg-duration {
+        font-size: 25px;
+    }
+    .serviceSection .owl-item p {
+        font-size: 25px;
+    }
+    .serviceSection .serviceForm input.select-dropdown {
+        font-size: 25px;
+    }
+    .aircaret.caret1 {
+        left: 90%;
+    }
+    .aircaret.caret2 {
+        left: 90%;
+    }
+    .parallax img {
+        bottom: -140%;
+        left: 0%;
+    }
+    .whyUsSection .serviceProvider {
+        padding-top: 150px;
+    }
+}
+@media only screen and (max-width: 600px) {
+    .benefitsSection p {
+        font-size: 20px;
+        letter-spacing: 0.5px;
+    }
+    footer.page-footer.white {
+        padding-top: 0;
+    }
+    footer .container {
+        padding-top: 30px;
+    }
+    footer.page-footer ul {
+        float: none;
+        left: 40%;
+        margin-top: -20px;
+    }
+    .footer-copyright a {
+        float: none;
+        text-align: center;
+    }
+    .home-tabs {
+        display: none;
+    }
+    .adventurer h1 {
+        margin-top: 0;
+    }
+    .adventurer .infoCube p {
+        font-size: 24px;
+    }
+    div.featuredService {
+        margin-top: -175px;
+    }
+    .nav-navBar.white {
+        padding-left: 0px;
+    }
+    .serviceForm {
+        top: -100px;
+    }
+    .home-stock-1 {
+        display: none;
+    }
+    .home-stock-2 {
+        display: none;
+    }
+    .serviceProvider ul {
+        margin: 0;
+    }
+    .serviceProvider .col {
+        padding: 0;
+    }
+    .serviceProvider .col.s12.serviceText {
+        padding-top: 150px;
+        padding-left: 0;
+        padding-right: 0;
+    }
+    .serviceProvider h1 {
+        text-align: center;
+    }
+    .serviceProvider {
+        height: 25vh;
+    }
+    .adventurer .infoCube {
+        width: 90%;
+    }
+    .adventurer .demoCube {
+        width: 90%;
+        padding-top: 20px;
+    }
+    .whyUsSection .adventurer {
+        height: 170vh;
+        margin-top: 125px;
+    }
+    .lots-of-margin {
+        margin-top: 125px;
+    }
+    h1.homeSlogan {
+        display: none;
+    }
+    h1.mobileSlogan {
+        font-size: 32px;
+        color: #fff;
+        font-weight: 300;
+        line-height: 32pt;
+        margin: 0;
+        letter-spacing: 1px;
+        display: block;
+    }
+
+    p.mobileSubSlogan {
+        display: block;
+        color:  #fff;
+        margin-top: 17px;
+        font-family: 'Helvetica Neue', sans-serif;
+        font-weight: 400;
+        font-size: 20px;
+        line-height: 26px;
+        letter-spacing: 0.5px;
+    }
+    .homeSection .sub-slogan {
+        display: none;
+    }
+    .resultSection .col {
+        position: relative;
+    }
+    .resultSection .left-test h1 {
+        text-align: center;
+        font-size: 100px;
+        background: linear-gradient(#fafafa, #fff);
+        letter-spacing: 5px;
+        margin: 10px 0;
+        font-style: italic;
+        position: static;
+    }
+    .desktopVersion {
+        display: none;
+    }
+    .mobileVersion {
+        display: block;
+    }
+    .mobileVersion h1.number {
+        text-align: center;
+        font-size: 50px;
+        background: linear-gradient(#fafafa, #fff);
+        letter-spacing: 5px;
+        margin: 10px 0;
+        font-style: italic;
+    }
+    .mobileVersion .z50 h1.number {
+        width: 120px;
+        margin: 0 auto;
+    }
+    .z50 h1.stat {
+        margin: 5px 0;
+    }
+    .mobileVersion .z3000 h1.number {
+        width: 150px;
+        margin: 50px auto 0 auto;
+    }
+    .z3000 h1.stat {
+        margin: 5px 0;
+    }
+    .resultSection {
+        margin-top: 85px;
+    }
+
+}
+
+@media only screen and (max-width: 450px) {
+    .whyUsSection .adventurer {
+        height: 250vh;
+    }
+
+}
+@media only screen and (max-height: 745px) {
+    .serviceForm {
+        top: -200px;
+    }
+    .home-tabs {
+        top: -203px;
+    }
+    .featuredService {
+        margin-top: -485px;
+    }
+}
+@media only screen and (max-height: 610px) {
+    .serviceForm {
+        top: -100px;
+    }
+    .home-tabs {
+        top: -103px;
+    }
+    .featuredService {
+        margin-top: -385px;
+    }
+}
+@media only screen and (max-height: 490px) {
+    .serviceForm {
+        top: -40px;
+    }
+    .home-tabs {
+        top: -40px;
+    }
+    .featuredService {
+        margin-top: -285px;
+    }
+}
